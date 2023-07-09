@@ -16,6 +16,8 @@ export default {
     };
   },
 
+  emits: ['update:count'],
+
   watch: {
     count: {
       handler() {
